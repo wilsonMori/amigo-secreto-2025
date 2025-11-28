@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ficha de Deseos - Amigo Secreto 2025</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: url('https://images.unsplash.com/photo-1543589077-47d81606c1bf') center/cover no-repeat fixed;
+      margin: 0;
+      padding: 0;
+    }
+    .overlay {
+      background: rgba(255, 255, 255, 0.9);
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    h1 {
+      text-align: center;
+      color: #b30000;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #b30000;
+      border-left: 6px solid #b30000;
+      padding-left: 10px;
+      margin-top: 25px;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 12px;
+      color: #333;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 8px;
+      border: 1px solid #bbb;
+      font-size: 15px;
+    }
+    textarea { height: 90px; }
+    .submit-btn {
+      background: #b30000;
+      color: white;
+      padding: 12px 20px;
+      margin-top: 25px;
+      width: 100%;
+      border: none;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .submit-btn:hover {
+      background: #8c0000;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>🎄 Ficha de Deseos – Amigo Secreto 2025 🎁</h1>
+
+    <h2>Datos del Participante</h2>
+    <label>Nombre</label>
+    <input type="text" placeholder="Escribe tu nombre aquí" />
+
+    <label>Área / Cargo</label>
+    <input type="text" placeholder="Ejemplo: Coordinación, Operaciones, etc." />
+
+    <label>Fecha</label>
+    <input type="date" />
+
+    <h2>Preferencias Personales</h2>
+    <label>Colores favoritos</label>
+    <input type="text" />
+
+    <label>Fragancias u olores preferidos</label>
+    <input type="text" />
+
+    <label>Estilo</label>
+    <input type="text" placeholder="moderno, clásico, deportivo, etc." />
+
+    <h2>Me gustaría recibir</h2>
+    <textarea placeholder="Escribe tus opciones favoritas"></textarea>
+
+    <h2>No me gustaría recibir</h2>
+    <textarea placeholder="Para evitar regalos no deseados"></textarea>
+
+    <h2>Mis Opciones de Regalo</h2>
+    <label>Opción 1</label>
+    <input type="text" placeholder="Descripción o idea" />
+    <input type="text" placeholder="Link opcional" />
+
+    <label>Opción 2</label>
+    <input type="text" placeholder="Descripción o idea" />
+    <input type="text" placeholder="Link opcional" />
+
+    <label>Opción 3</label>
+    <input type="text" placeholder="Descripción o idea" />
+    <input type="text" placeholder="Link opcional" />
+
+    <h2>Mensaje para mi Amigo Secreto</h2>
+    <textarea placeholder="Un mensaje bonito para tu amigo secreto"></textarea>
+
+    <button class="submit-btn">Enviar 🎅</button>
+  </div>
+</body>
+</html>
